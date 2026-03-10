@@ -1,3 +1,5 @@
+# Comparador de 2 valores
+
 import math
 
 valor1 = int(input("Digite o primeiro valor: "))
@@ -15,3 +17,4 @@ else:
     {
         print(f"os valores são iguais: {valor1}={valor2}")
     }
+
