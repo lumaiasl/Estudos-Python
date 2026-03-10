@@ -1,3 +1,5 @@
+# validador do tamanho de senhas
+
 senhas = ["123","avs","dwaswe","1252123"]
 for senha in senhas:
     if len(senha) >= 6:
@@ -42,7 +44,7 @@ def login():
 
 login()
 
-# validador de login com while agora porra
+# validador de login com while agora
 
 tentativas = 0
 usuario = input('insira seu usuário: ')
@@ -63,4 +65,5 @@ if usuario == usuario1 and senha == senha1:
     print('pabens')
 
 else:
+
     print('tente novamente mais tarde')
