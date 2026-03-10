@@ -1,6 +1,6 @@
 # Laços de repetição
 
-# Range nunca inclui o último número
+# Range nunca inclui o último número, vai até 10
 for item in range(1,11):
     print(item)
 
@@ -12,12 +12,12 @@ for item in range(2,12,2):
 nomes = ["João","Amanda","Rafael"]
 
 # lista variáveis diferentes
-dado = [1,"Jonas",True,2.3]
+dados = [1,"Jonas",True,2.3]
 
 for nome in nomes:
     print(nome)
 
-for dado in dado:
+for dado in dados:
     print(dado)
 
 
@@ -28,4 +28,5 @@ for idade in idades:
         if idade >= 18:
             print(f'{idade} é maior de idade')
         else:
+
             print(f'{idade} é menor de idade')
